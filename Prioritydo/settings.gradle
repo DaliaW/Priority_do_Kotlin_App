@@ -1,0 +1,2 @@
+rootProject.name='Quicky do'
+include ':app'

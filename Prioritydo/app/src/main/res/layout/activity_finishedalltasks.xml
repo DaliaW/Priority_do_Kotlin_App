@@ -16,7 +16,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tasksemptypage" />
-
     <ImageButton
         android:id="@+id/addtask"
         android:layout_width="69dp"
@@ -27,10 +26,10 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageViewId"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="@+id/imageViewId"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
+        app:layout_constraintVertical_bias="0.927"
         app:srcCompat="@drawable/buttonadd"
         tools:visibility="visible" />
 
@@ -43,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.636"
+        app:layout_constraintVertical_bias="0.613"
         app:srcCompat="@drawable/finish" />
 
 

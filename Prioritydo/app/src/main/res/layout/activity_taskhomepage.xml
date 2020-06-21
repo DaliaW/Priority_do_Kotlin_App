@@ -20,21 +20,23 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/tasksemptypage" />
 
+
     <ImageView
         android:id="@+id/msg"
-        android:layout_width="278dp"
-        android:layout_height="238dp"
+        android:layout_width="324dp"
+        android:layout_height="290dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintCircleAngle="60"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.827"
-        app:layout_constraintCircleAngle="60"
+        app:layout_constraintVertical_bias="0.777"
         app:srcCompat="@drawable/addtaskheremsg" />
 
     <ImageButton
         android:id="@+id/addtask"
+        style="@android:style/Widget.DeviceDefault.Light.ImageButton"
         android:layout_width="69dp"
         android:layout_height="69dp"
         android:background="#FFFFFF"
@@ -43,23 +45,23 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageViewId"
-        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintHorizontal_bias="0.923"
         app:layout_constraintStart_toStartOf="@+id/imageViewId"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.975"
+        app:layout_constraintVertical_bias="0.927"
         app:srcCompat="@drawable/buttonadd"
         tools:visibility="visible" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="129dp"
-        android:layout_height="159dp"
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="197dp"
+        android:layout_height="209dp"
+        android:rotation="310"
+        android:src="@drawable/giphy"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewId"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageViewId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.884"
-        app:srcCompat="@drawable/giphy" />
+        app:layout_constraintVertical_bias="0.923" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

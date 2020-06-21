@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loginmi">
+    tools:context=".register">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -36,7 +36,7 @@
         app:srcCompat="@drawable/effect" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/emailreg"
         android:layout_width="296dp"
         android:layout_height="38dp"
         android:ems="10"
@@ -58,14 +58,25 @@
         android:layout_height="26dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.382"
-        app:srcCompat="@drawable/loginmi" />
+        app:layout_constraintVertical_bias="0.376"
+        app:srcCompat="@drawable/register" />
+
+    <ImageView
+        android:id="@+id/alreadyacc"
+        android:layout_width="239dp"
+        android:layout_height="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.742"
+        app:srcCompat="@drawable/alreadyhaveaccount" />
 
     <ImageButton
-        android:id="@+id/loginbttn"
+        android:id="@+id/regButton"
         style="@android:style/Widget.DeviceDefault.Light.ImageButton"
         android:layout_width="181dp"
         android:layout_height="33dp"
@@ -76,34 +87,10 @@
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
         app:layout_constraintVertical_bias="0.699"
-        app:srcCompat="@drawable/loginbttn" />
-
-    <ImageView
-        android:id="@+id/forgetpass"
-        android:layout_width="239dp"
-        android:layout_height="19dp"
-        app:layout_constraintBottom_toTopOf="@+id/notreg"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.939"
-        app:srcCompat="@drawable/forgetpass" />
-
-    <ImageView
-        android:id="@+id/notreg"
-        android:layout_width="239dp"
-        android:layout_height="19dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.545"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.814"
-        app:srcCompat="@drawable/notreg" />
+        app:srcCompat="@drawable/buttonreg" />
 
     <EditText
-        android:id="@+id/pass"
+        android:id="@+id/passreg"
         android:layout_width="296dp"
         android:layout_height="38dp"
         android:background="@drawable/text"
@@ -127,10 +114,10 @@
         android:layout_marginRight="54dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.105"
+        app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/motto" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
