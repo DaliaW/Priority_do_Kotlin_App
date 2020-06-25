@@ -4,18 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Finishedalltasks">
+    tools:context="com.example.Prioritydo.Finishedalltasks">
+
     <ImageView
         android:id="@+id/imageViewId"
-        android:scaleType="centerCrop"
-        android:adjustViewBounds="true"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/tasksemptypage" />
+
     <ImageButton
         android:id="@+id/addtask"
         android:layout_width="69dp"

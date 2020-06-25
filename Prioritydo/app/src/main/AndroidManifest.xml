@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quickydo">
+    package="com.example.Prioritydo">
 
     <application
         android:allowBackup="true"
@@ -9,15 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".forgetpassword"></activity>
-        <activity android:name=".Finishedalltasks" />
-        <activity android:name=".taskadded" />
-        <activity android:name=".taskhomepage" />
-        <activity android:name=".loginmi" />
+        <activity android:name="com.example.Prioritydo.forgetpassword"></activity>
+        <activity android:name="com.example.Prioritydo.Finishedalltasks" />
+        <activity android:name="com.example.Prioritydo.taskadded" />
+        <activity android:name="com.example.Prioritydo.taskhomepage" />
+        <activity android:name="com.example.Prioritydo.loginmi" />
         <activity
-            android:name=".register"
+            android:name="com.example.Prioritydo.register"
             android:label="Home" />
-        <activity android:name=".splash">
+        <activity android:name="com.example.Prioritydo.splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

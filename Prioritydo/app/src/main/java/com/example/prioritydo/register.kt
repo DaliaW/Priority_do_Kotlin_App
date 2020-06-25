@@ -1,4 +1,4 @@
-package com.example.quickydo
+package com.example.Prioritydo
 
 import android.graphics.Color
 import android.os.Build
@@ -7,7 +7,6 @@ import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 
@@ -23,7 +22,8 @@ class register : AppCompatActivity() {
         setContentView(R.layout.activity_register)
         getWindow().setFlags(
             WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        )
         getWindow().setStatusBarColor(Color.TRANSPARENT)
     }
 }

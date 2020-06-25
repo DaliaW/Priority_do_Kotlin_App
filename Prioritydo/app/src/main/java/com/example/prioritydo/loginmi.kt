@@ -1,11 +1,11 @@
-package com.example.quickydo
+package com.example.Prioritydo
 
 import android.graphics.Color
 import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 
 class loginmi : AppCompatActivity() {
 
@@ -15,7 +15,8 @@ class loginmi : AppCompatActivity() {
         setContentView(R.layout.activity_loginmi)
         getWindow().setFlags(
             WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
-            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS)
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        )
         getWindow().setStatusBarColor(Color.TRANSPARENT)
     }
 }
